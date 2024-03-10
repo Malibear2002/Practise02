@@ -11,9 +11,9 @@ for (var i = 1; i <= round; i++) {
     random_answer = "ก้อย";
   }
   if (answer == random_answer) {
-    alert("ถูกต้อง");
+    alert("ถูกต้อง เก่งมากเลย");
   } else {
-    alert("ผิด");
+    alert("ทายผิด ลองใหม่นะ");
   }
   console.log(random_answer + " : " + answer);
 
